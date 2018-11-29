@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 * {
   box-sizing: border-box;
 }
@@ -54,7 +55,9 @@ form {
   color: white;
 }
 
-.main-header__item a:hover, .main-header__item a:active, .main-header__item a.active {
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
   color: #ffeb3b;
 }
 
@@ -96,7 +99,9 @@ form {
   padding: 0.5rem 2rem;
 }
 
-.mobile-nav__item a:active, .mobile-nav__item a:hover, .mobile-nav__item a.active {
+.mobile-nav__item a:active,
+.mobile-nav__item a:hover,
+.mobile-nav__item a.active {
   background: #00695c;
   color: white;
   border-radius: 3px;
@@ -116,7 +121,8 @@ form {
   outline: none;
 }
 
-#side-menu-toggle:active, #side-menu-toggle:hover {
+#side-menu-toggle:active,
+#side-menu-toggle:hover {
   color: #ffeb3b;
   border-color: #ffeb3b;
 }
@@ -143,11 +149,15 @@ form {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-.card__header, .card__content {
+.card__header,
+.card__content {
   padding: 1rem;
 }
 
-.card__header h1, .card__content h1, .card__content h2, .card__content p {
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
   margin: 0;
 }
 
@@ -164,7 +174,8 @@ form {
   text-align: center;
 }
 
-.card__actions button, .card__actions a {
+.card__actions button,
+.card__actions a {
   margin: 0 0.25rem;
 }
 
@@ -180,8 +191,20 @@ form {
   cursor: pointer;
 }
 
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
   background-color: #00695c;
+  color: white;
+}
+
+.btn.danger {
+  color: red;
+  border-color: red;
+}
+
+.btn.danger:hover,
+.btn.danger:active {
+  background: red;
   color: white;
 }
 
@@ -189,6 +212,7 @@ form {
   .main-header__nav {
     display: flex;
   }
+
   #side-menu-toggle {
     display: none;
   }
